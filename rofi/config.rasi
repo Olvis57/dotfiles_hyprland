@@ -1,0 +1,6 @@
+configuration {
+show-icons: true;
+drun-display-format: "{name}";
+display-drun: "Apps";
+font: "JetBrainsMono Nerd Font 12";
+}
