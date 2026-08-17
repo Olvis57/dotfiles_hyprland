@@ -1,9 +1,22 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+
+/*
+    "logo": {
+    "type": "file",
+    "source": "~/.config/fastfetch/myascii.txt"
+    },   
+*/
+	
   "modules": [
-    "title",
+    "title",	
     "separator",
-    "os",
+    {
+    	"type": "os",
+	"keyColor": "green",
+	"outputColor": "green"
+    },
+
     "host",
     "kernel",
     "uptime",
