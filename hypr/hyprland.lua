@@ -51,7 +51,15 @@ local menu = "hyprlauncher"
 --
 hl.on("hyprland.start", function () 
 hl.exec_cmd("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
-hl.exec_cmd("waybar & hyprpaper & mako")
+hl.exec_cmd("waybar & hyprpaper & mako & python ~/dotfiles/eww/scripts/audio/audio_visualizer.py")
+hl.exec_cmd("cava -p ~/.config/cava/config &")
+hl.exec_cmd("eww daemon")
+
+-- EWW HUD
+hl.exec_cmd("eww daemon")
+hl.exec_cmd("cava -p ~/.config/cava/config &")
+hl.exec_cmd("python ~/.config/eww/scripts/audio_visualizer.py &")
+
 end)
 
 
@@ -275,6 +283,8 @@ hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
 
 -- Egna Binds --
 local rofiBind = hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd("rofi -show drun"))
+hl.bind(mainMod .. " + H", hl.dsp.exec_cmd("~/dotfiles/eww/toggle-hud.sh"))
+
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left",  hl.dsp.focus({ direction = "left" }))
