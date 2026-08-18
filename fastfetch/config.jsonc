@@ -11,6 +11,7 @@
   "modules": [
     "title",	
     "separator",
+   
     {
     	"type": "os",
 	"keyColor": "green",
