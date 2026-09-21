@@ -71,14 +71,14 @@
       "enabled": "[  ]",
       "disabled": "[ 󰂲 ]"
     },
-    "on-click": "~/dionysus-waybar/scripts/bluetooth-toggle.sh",
+    "on-click": "~/dotfiles/waybar/scripts/bluetooth-toggle.sh",
     "tooltip-format": "Bluetooth is {status}",
     "interval": 5
   },
 
   // ── Battery (scripted + built-in) ────────────────────────────────
   "custom/battery": {
-    "exec": "~/dionysus-waybar/scripts/battery.sh",
+    "exec": "~/dotfiles/waybar/scripts/battery.sh",
     "return-type": "json",
     "interval": 10,
     "on-click": "xfce4-power-manager-settings"
@@ -106,7 +106,7 @@
 
   // ── Microphone ───────────────────────────────────────────────────
   "custom/microphone": {
-    "exec": "~/dionysus-waybar/scripts/mic.sh",
+    "exec": "~/dotfiles/waybar/scripts/mic.sh",
     "interval": 1,
     "tooltip": true,
     "tooltip-format": "Mic Toggle",
@@ -115,10 +115,10 @@
 
   // ── Brightness ───────────────────────────────────────────────────
   "custom/brightness": {
-    "exec": "~/dionysus-waybar/scripts/brightness.sh",
+    "exec": "~/dotfiles/waybar/scripts/brightness.sh",
     "return-type": "json",
     "interval": 2,
-    "on-click": "~/dionysus-waybar/scripts/brightness-toggle.sh",
+    "on-click": "~/dotfiles/waybar/scripts/brightness-toggle.sh",
     "on-scroll-up": "brightnessctl set +5%",
     "on-scroll-down": "brightnessctl set 5%-"
   },
@@ -127,30 +127,30 @@
     "format": "󰛨  {percent}%",
     "format-icons": ["󰃞","󰃟","󰃠","󰃝","󰃜","󰃛"],
     "class": "flicker-bar",
-    "on-click": "~/dionysus-waybar/scripts/brightness-slider.sh"
+    "on-click": "~/dotfiles/waybar/scripts/brightness-slider.sh"
   },
 
   // ── Workspaces (custom scripts) ──────────────────────────────────
   "custom/workspace-1": {
-    "exec": "~/dionysus-waybar/scripts/workspaces/workspace-1.sh",
+    "exec": "~/dotfiles/waybar/scripts/workspaces/workspace-1.sh",
     "interval": 1,
     "on-click": "hyprctl dispatch workspace 1",
     "tooltip": "Switch to workspace 1"
   },
   "custom/workspace-2": {
-    "exec": "~/dionysus-waybar/scripts/workspaces/workspace-2.sh",
+    "exec": "~/dotfiles/waybar/scripts/workspaces/workspace-2.sh",
     "interval": 1,
     "on-click": "hyprctl dispatch workspace 2",
     "tooltip": "Switch to workspace 2"
   },
   "custom/workspace-3": {
-    "exec": "~/dionysus-waybar/scripts/workspaces/workspace-3.sh",
+    "exec": "~/dotfiles/waybar/scripts/workspaces/workspace-3.sh",
     "interval": 1,
     "on-click": "hyprctl dispatch workspace 3",
     "tooltip": "Switch to workspace 3"
   },
   "custom/workspace-4": {
-    "exec": "~/dionysus-waybar/scripts/workspaces/workspace-4.sh",
+    "exec": "~/dotfiles/waybar/scripts/workspaces/workspace-4.sh",
     "interval": 1,
     "on-click": "hyprctl dispatch workspace 4",
     "tooltip": "Switch to workspace 4"
@@ -158,7 +158,7 @@
 
   // ── Volume ───────────────────────────────────────────────────────
   "custom/volume": {
-    "exec": "~/dionysus-waybar/scripts/volume.sh",
+    "exec": "~/dotfiles/waybar/scripts/volume.sh",
     "return-type": "json",
     "interval": 1,
     "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
@@ -169,9 +169,9 @@
 
   // ── VPN ──────────────────────────────────────────────────────────
   "custom/vpn": {
-    "exec": "~/dionysus-waybar/scripts/nordvpn-status.sh",
+    "exec": "~/dotfiles/waybar/scripts/mullvad-status.sh",
     "interval": 5,
-    "on-click": "~/dionysus-waybar/scripts/nordvpn-toggle.sh",
+    "on-click": "~/dotfiles/waybar/scripts/mullvad-toggle.sh",
     "format": "{}",
     "markup": "pango",
     "tooltip": true,
@@ -183,7 +183,7 @@
     "format": "[ 󰤆 ]",
     "tooltip": true,
     "tooltip-format": "Power Menu",
-    "on-click": "~/dionysus-waybar/scripts/powermenu.sh"
+    "on-click": "~/dotfiles/waybar/scripts/powermenu.sh"
   },
 
   // ── Spacer ───────────────────────────────────────────────────────

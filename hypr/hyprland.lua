@@ -50,13 +50,12 @@ local menu = "hyprlauncher"
 -- Or execute your favorite apps at launch like this:
 --
 hl.on("hyprland.start", function () 
-hl.exec_cmd("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
+--hl.exec_cmd("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
 hl.exec_cmd("waybar & hyprpaper & mako & python ~/dotfiles/eww/scripts/audio/audio_visualizer.py")
 hl.exec_cmd("cava -p ~/.config/cava/config &")
 hl.exec_cmd("eww daemon")
 
 -- EWW HUD
-hl.exec_cmd("eww daemon")
 hl.exec_cmd("cava -p ~/.config/cava/config &")
 hl.exec_cmd("python ~/.config/eww/scripts/audio_visualizer.py &")
 
