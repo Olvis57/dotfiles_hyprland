@@ -283,7 +283,7 @@ hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
 -- Egna Binds --
 local rofiBind = hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd("rofi -show drun"))
 hl.bind(mainMod .. " + H", hl.dsp.exec_cmd("~/dotfiles/eww/toggle-hud.sh"))
-
+hl.bind(mainMod .. " + F", hl.dsp.exec_cmd("firefox"))
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left",  hl.dsp.focus({ direction = "left" }))
