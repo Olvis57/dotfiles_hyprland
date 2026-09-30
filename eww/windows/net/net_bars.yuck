@@ -5,7 +5,7 @@
 (defwindow net_bars
   :visible show_eww
   :anchor "top left"
-  :geometry (geometry :x "9px" :y "638px" :width "420px" :height "120px")
+  :geometry (geometry :x "9px" :y "368px" :width "420px" :height "120px")
   :stacking "bg"
   :exclusive false
   :focusable false

@@ -6,7 +6,7 @@
   :visible show_eww
   :anchor "top left"
   :monitor 0
-  :geometry (geometry :x "42px" :y "976px" :width "320px" :height "80px")
+  :geometry (geometry :x "42px" :y "706px" :width "320px" :height "80px")
   :stacking "bg"
   :exclusive false
   :focusable false

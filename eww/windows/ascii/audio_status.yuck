@@ -5,7 +5,7 @@
 (defwindow audio_status
   :visible show_eww
   :anchor "top right"
-  :geometry (geometry :x "79px" :y "288px" :width "300px" :height "40px")
+  :geometry (geometry :x "970px" :y "200px" :width "300px" :height "40px")
   :stacking "bg"
   :monitor 0
   :exclusive false

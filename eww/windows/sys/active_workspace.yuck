@@ -5,7 +5,7 @@
 (defwindow active_workspace
   :visible show_eww
   :anchor "top left"
-  :geometry (geometry :x "267px" :y "502px" :width "100px" :height "200px")
+  :geometry (geometry :x "267px" :y "242px" :width "100px" :height "200px")
   :stacking "bg"
   :exclusive false
   :monitor 0
