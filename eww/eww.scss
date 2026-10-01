@@ -132,6 +132,10 @@ window {
   color: #9cdef2;
 }
 
+.aurebesh {
+  font-family: "DroidobeshDepot"
+}
+
 .label-primary2 {
   font-size: 9px;
   font-weight: bold;
@@ -400,9 +404,9 @@ $window_visible: true;
 
 
 // ── Power ─────────────────────────────────────────────────────────────────
-.power-label { font-size: 12px; color: #fab387; font-family: monospace; }
-.power-label2 { font-size: 12px; color: #c4ecf0; font-family: monospace; }
-.power-label3 { font-size: 12px; color: #61afef; font-family: monospace; }
+.power-label { font-size: 12px; color: #fab387; font-family: DroidobeshDepot, monospace; }
+.power-label2 { font-size: 12px; color: #c4ecf0; font-family: DroidobeshDepot, monospace; }
+.power-label3 { font-size: 12px; color: #61afef; font-family: DroidobeshDepot, monospace; }
 
 .power-value { font-size: 10px; color: #9cdef2; font-family: monospace; margin: 5px; }
 

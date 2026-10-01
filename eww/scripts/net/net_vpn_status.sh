@@ -5,7 +5,7 @@
 if sudo /usr/bin/ipsec statusall 2>/dev/null | grep -q "ESTABLISHED"; then
   country=$(curl -s ifconfig.co/country 2>/dev/null)
   [[ -z "$country" ]] && country="UNKNOWN"
-  echo "[ФАНТОМ]"
+  echo "[PHANTOM]"
 else
   echo "KAPUTT"
 fi

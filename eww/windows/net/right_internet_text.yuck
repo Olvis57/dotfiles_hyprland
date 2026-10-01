@@ -16,7 +16,7 @@
       (label :text download_speed :class "label-primary2")
       (label :text upload_speed :class "label-primary2")
       (label :text ping_ms :class "label-primary2")
-      (label :text vpn_status_text :class "label-primary2")
+      (label :text vpn_status_text :class "aurebesh")
 
     )
   )

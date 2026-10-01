@@ -1,5 +1,6 @@
-;; ── welcome text───────────────────────────────────────────────────
-;; Text displaying date and weather in cyrilic
+
+;; ── welcome text ────────────────────────────────────────────────────
+;; Text displaying date and weather
 ;; Anchored right screen
 
 (defwindow welcome_text
@@ -13,14 +14,17 @@
 
   (box :orientation "vertical" :halign "end" :class "stats-box"
 
-    ;; Welcome Line
-    (label :text "> Добро пожаловать, ${USER}" :class "label-primary" :halign "end" :style "margin-top: -10px;")
+  ;; Welcome Line
+(label :text "> Dobro pozhalovat, ${USER}" :class "label-primary aurebesh" :halign "end" :style "margin-top: -10px;")
 
-    ;; Date Line
-    (label :text "Сегодня: ${welcome_date}" :class "label-primary" :halign "end" :style "margin-top: -40px;")
+;; Date Line
+(label :text "Segodnya: ${welcome_date}" :class "label-primary aurebesh" :halign "end" :style "margin-top: -40px;")
 
-    ;; Weather Line
-    (label :text "Погода: ${weather_forecast}" :class "label-primary" :halign "end" :style "margin-top: -70px;")
+;; Weather Line
+(label :text "Pogoda: ${weather_forecast}" :class "label-primary aurebesh" :halign "end" :style "margin-top: -70px;")
+
+
+
+
   )
 )
-

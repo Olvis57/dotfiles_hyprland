@@ -13,31 +13,31 @@
   (box :orientation "vertical" :halign "start" :space "4px"
  
         ;; Power Draw
-        (box :orientation "horizontal" :halign "end" :space "4px" :style "margin-top:-10px;"
+        (box :orientation "horizontal" :halign "end" :space "4px" :style "margin-top:-8px;margin-left:-8px"
           (label :text "> " :class "power-label2"   :halign "end"   )
-          (label :text "энергии:   " :class "power-label")
+          (label :text "energii:   " :class "power-label")
           (label :text power_draw :class "power-value"  :halign "end"  )
         )
 
         ;; CPU Voltage
         (box :orientation "horizontal" :halign "start" :space "4px" :style "margin-top: -10px;"
           (label :text "> " :class "power-label2"   :halign "end"   )
-          (label :text "сос:       " :class "power-label")
+          (label :text "sos:       " :class "power-label")
           (label :text cpu_voltage :class "power-value"   :halign "end"  )
         )
 
         ;; GPU Voltage
-        (box :orientation "horizontal" :halign "start" :space "4px" :style "margin-top: -10px;"
+        (box :orientation "horizontal" :halign "start" :space "4px" :style "margin-top: -10px; margin-left:1px"
           (label :text "> " :class "power-label2"   :halign "end"   )
-          (label :text "гпу:       " :class "power-label")
+          (label :text "gpu:       " :class "power-label")
           
           (label :text gpu_voltage :class "power-value"        :halign "end" )
         )
         
            ;; GPU Voltage
-        (box :orientation "horizontal" :halign "start" :space "4px" :style "margin-top: -10px;"
+        (box :orientation "horizontal" :halign "start" :space "4px" :style "margin-top: -10px; margin-left:-1px"
           (label :text "> " :class "power-label2"   :halign "end"   )
-          (label :text "вход:      " :class "power-label")
+          (label :text "vhod:      " :class "power-label")
                        (label :text dc_voltage :class "power-value"    :halign "end" )
         )
       )
