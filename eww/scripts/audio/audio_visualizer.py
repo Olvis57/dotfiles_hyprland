@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
 # ─────────────────────────────────────────────────────────────────────────────
-#  °˖* ૮(  • ᴗ ｡)っ🍸  pewdiepie/archdaemon/dionysh shhheersh
-#  vers. 1.0
-# ─────────────────────────────────────────────────────────────────────────────
 #  Reads /tmp/cava.raw and writes an ASCII‑art file that can be shown by eww, 
 #  waybar, or any terminal widget. Can run as exec once in hyprland config.
 # ─────────────────────────────────────────────────────────────────────────────

@@ -1,8 +1,5 @@
 # EWW Config 
 
-───────────────────────────────────────────────  
- °˖* ૮( • ᴗ ｡)っ🍸 shheersh - Dionysus vers. 1.0   
- ───────────────────────────────────────────────  
 
 ## Custom animated **EWW*. 
 A custom **eww (Elkowar’s Wacky Widgets) HUD** for Linux — this is duct-taped together ASCII art, system stats, network monitoring, and neon reactor-core vibes. 
@@ -13,7 +10,6 @@ A custom **eww (Elkowar’s Wacky Widgets) HUD** for Linux — this is duct-tape
 ## Features
   - Custom ASCII visualizer
   - Easy monitor of sensors and network
-  - Атмосфера холодного цеха
 
 ![Eww Demo Gif](../../assets/demo-eww.gif)
   
@@ -118,5 +114,4 @@ GPU stats require nvidia-smi.
 Network assumes wlp4s0 — change your interface name in net_* scripts.
 VPN detection looks for 10.6.0.x (NordVPN via strongSwan). Adjust if using another provider.
 
-I'm sorry in advance. God speed if you try and get this running yourself. 
 
